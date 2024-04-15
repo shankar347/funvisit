@@ -1,12 +1,12 @@
 {
-  "homepage": "http://shankar347.github.io/funvisit",
+  "homepage": "https://shankar347.github.io/funvisit",
   "name": "front-side",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run buil",
-    "deploy":"npm install gh-pages",
+    "predeploy":"npm run build",
+    "deploy":"vite build && gh-pages -d dist ",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
