@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body
+{
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+input,
+textarea{
+    color: #000000;
+
+}
+
+    ::placeholder
+    {
+        color: black;
+    }
+
+    
+select option {
+    color: #000000;
+}
+/* .banner
+{
+   background-image:url();
+}    */
+.bannerinput
+{
+    border: 3px white solid;
+}
+.bannerinput::placeholder
+{
+    font-style: italic;
+    font-size: 19px;
+}
+.bannerinput:focus
+{
+    border: 3px rgb(16, 19, 195) solid;
+}
